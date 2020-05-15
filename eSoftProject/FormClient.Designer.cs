@@ -57,22 +57,22 @@
             // 
             this.abelFirstName.AutoSize = true;
             this.abelFirstName.BackColor = System.Drawing.Color.DodgerBlue;
-            this.abelFirstName.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.abelFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.abelFirstName.ForeColor = System.Drawing.Color.White;
-            this.abelFirstName.Location = new System.Drawing.Point(12, 61);
+            this.abelFirstName.Location = new System.Drawing.Point(12, 64);
             this.abelFirstName.Name = "abelFirstName";
-            this.abelFirstName.Size = new System.Drawing.Size(41, 19);
+            this.abelFirstName.Size = new System.Drawing.Size(37, 16);
             this.abelFirstName.TabIndex = 0;
             this.abelFirstName.Text = "Имя";
             // 
             // labelMiddleName
             // 
             this.labelMiddleName.AutoSize = true;
-            this.labelMiddleName.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelMiddleName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelMiddleName.ForeColor = System.Drawing.Color.White;
-            this.labelMiddleName.Location = new System.Drawing.Point(12, 112);
+            this.labelMiddleName.Location = new System.Drawing.Point(12, 115);
             this.labelMiddleName.Name = "labelMiddleName";
-            this.labelMiddleName.Size = new System.Drawing.Size(80, 19);
+            this.labelMiddleName.Size = new System.Drawing.Size(79, 16);
             this.labelMiddleName.TabIndex = 1;
             this.labelMiddleName.Text = "Отчество";
             this.labelMiddleName.Click += new System.EventHandler(this.labelMiddleName_Click);
@@ -80,74 +80,74 @@
             // labelLastName
             // 
             this.labelLastName.AutoSize = true;
-            this.labelLastName.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelLastName.ForeColor = System.Drawing.Color.White;
-            this.labelLastName.Location = new System.Drawing.Point(12, 163);
+            this.labelLastName.Location = new System.Drawing.Point(12, 166);
             this.labelLastName.Name = "labelLastName";
-            this.labelLastName.Size = new System.Drawing.Size(79, 19);
+            this.labelLastName.Size = new System.Drawing.Size(74, 16);
             this.labelLastName.TabIndex = 2;
             this.labelLastName.Text = "Фамилия";
             // 
             // labelPhone
             // 
             this.labelPhone.AutoSize = true;
-            this.labelPhone.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelPhone.ForeColor = System.Drawing.Color.White;
-            this.labelPhone.Location = new System.Drawing.Point(12, 214);
+            this.labelPhone.Location = new System.Drawing.Point(12, 217);
             this.labelPhone.Name = "labelPhone";
-            this.labelPhone.Size = new System.Drawing.Size(75, 19);
+            this.labelPhone.Size = new System.Drawing.Size(75, 16);
             this.labelPhone.TabIndex = 3;
             this.labelPhone.Text = "Телефон";
             // 
             // labelEmail
             // 
             this.labelEmail.AutoSize = true;
-            this.labelEmail.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelEmail.ForeColor = System.Drawing.Color.White;
-            this.labelEmail.Location = new System.Drawing.Point(12, 265);
+            this.labelEmail.Location = new System.Drawing.Point(12, 268);
             this.labelEmail.Name = "labelEmail";
-            this.labelEmail.Size = new System.Drawing.Size(55, 19);
+            this.labelEmail.Size = new System.Drawing.Size(54, 16);
             this.labelEmail.TabIndex = 4;
             this.labelEmail.Text = "Почта";
             // 
             // textBoxFirstName
             // 
-            this.textBoxFirstName.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxFirstName.Location = new System.Drawing.Point(12, 83);
             this.textBoxFirstName.Name = "textBoxFirstName";
-            this.textBoxFirstName.Size = new System.Drawing.Size(100, 23);
+            this.textBoxFirstName.Size = new System.Drawing.Size(100, 22);
             this.textBoxFirstName.TabIndex = 5;
             // 
             // textBoxMiddleName
             // 
-            this.textBoxMiddleName.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxMiddleName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxMiddleName.Location = new System.Drawing.Point(12, 134);
             this.textBoxMiddleName.Name = "textBoxMiddleName";
-            this.textBoxMiddleName.Size = new System.Drawing.Size(100, 23);
+            this.textBoxMiddleName.Size = new System.Drawing.Size(100, 22);
             this.textBoxMiddleName.TabIndex = 6;
             // 
             // textBoxLastName
             // 
-            this.textBoxLastName.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxLastName.Location = new System.Drawing.Point(12, 185);
             this.textBoxLastName.Name = "textBoxLastName";
-            this.textBoxLastName.Size = new System.Drawing.Size(100, 23);
+            this.textBoxLastName.Size = new System.Drawing.Size(100, 22);
             this.textBoxLastName.TabIndex = 7;
             // 
             // textBoxPhone
             // 
-            this.textBoxPhone.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxPhone.Location = new System.Drawing.Point(12, 236);
             this.textBoxPhone.Name = "textBoxPhone";
-            this.textBoxPhone.Size = new System.Drawing.Size(100, 23);
+            this.textBoxPhone.Size = new System.Drawing.Size(100, 22);
             this.textBoxPhone.TabIndex = 8;
             // 
             // textBoxEmail
             // 
-            this.textBoxEmail.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxEmail.Location = new System.Drawing.Point(12, 287);
             this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(100, 23);
+            this.textBoxEmail.Size = new System.Drawing.Size(100, 22);
             this.textBoxEmail.TabIndex = 9;
             // 
             // listViewClient
@@ -159,15 +159,15 @@
             this.middleName,
             this.phone,
             this.email});
-            this.listViewClient.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.listViewClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listViewClient.ForeColor = System.Drawing.Color.DodgerBlue;
             this.listViewClient.FullRowSelect = true;
             this.listViewClient.GridLines = true;
             this.listViewClient.HideSelection = false;
-            this.listViewClient.Location = new System.Drawing.Point(118, 2);
+            this.listViewClient.Location = new System.Drawing.Point(118, 12);
             this.listViewClient.MultiSelect = false;
             this.listViewClient.Name = "listViewClient";
-            this.listViewClient.Size = new System.Drawing.Size(514, 389);
+            this.listViewClient.Size = new System.Drawing.Size(506, 297);
             this.listViewClient.TabIndex = 10;
             this.listViewClient.UseCompatibleStateImageBehavior = false;
             this.listViewClient.View = System.Windows.Forms.View.Details;
@@ -198,7 +198,7 @@
             // 
             this.phone.Text = "Телефон";
             this.phone.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.phone.Width = 125;
+            this.phone.Width = 115;
             // 
             // email
             // 
@@ -209,9 +209,9 @@
             // buttonAdd
             // 
             this.buttonAdd.BackColor = System.Drawing.Color.White;
-            this.buttonAdd.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAdd.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.buttonAdd.Location = new System.Drawing.Point(374, 397);
+            this.buttonAdd.Location = new System.Drawing.Point(366, 315);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(78, 23);
             this.buttonAdd.TabIndex = 11;
@@ -222,9 +222,9 @@
             // buttonEdit
             // 
             this.buttonEdit.BackColor = System.Drawing.Color.White;
-            this.buttonEdit.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonEdit.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.buttonEdit.Location = new System.Drawing.Point(458, 397);
+            this.buttonEdit.Location = new System.Drawing.Point(450, 315);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(89, 23);
             this.buttonEdit.TabIndex = 12;
@@ -235,9 +235,9 @@
             // buttonDel
             // 
             this.buttonDel.BackColor = System.Drawing.Color.White;
-            this.buttonDel.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonDel.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.buttonDel.Location = new System.Drawing.Point(553, 397);
+            this.buttonDel.Location = new System.Drawing.Point(545, 315);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(79, 23);
             this.buttonDel.TabIndex = 13;
@@ -251,7 +251,7 @@
             this.pictureBox1.ErrorImage = global::eSoftProject.Properties.Resources.logo1;
             this.pictureBox1.Image = global::eSoftProject.Properties.Resources.logo1;
             this.pictureBox1.InitialImage = global::eSoftProject.Properties.Resources.logo1;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -263,7 +263,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DodgerBlue;
-            this.ClientSize = new System.Drawing.Size(636, 461);
+            this.ClientSize = new System.Drawing.Size(636, 343);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonDel);
             this.Controls.Add(this.buttonEdit);

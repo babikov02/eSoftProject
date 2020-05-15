@@ -29,30 +29,20 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
-            this.Logo = new System.Windows.Forms.PictureBox();
             this.buttonOpenClients = new System.Windows.Forms.Button();
             this.buttonOpenAgents = new System.Windows.Forms.Button();
             this.buttonOpenRealEstates = new System.Windows.Forms.Button();
             this.buttonOpenDemands = new System.Windows.Forms.Button();
             this.buttonOpenSupplies = new System.Windows.Forms.Button();
             this.buttonOpenDeals = new System.Windows.Forms.Button();
+            this.Logo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // Logo
-            // 
-            this.Logo.Image = global::eSoftProject.Properties.Resources.logo;
-            this.Logo.Location = new System.Drawing.Point(0, 12);
-            this.Logo.Name = "Logo";
-            this.Logo.Size = new System.Drawing.Size(284, 88);
-            this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Logo.TabIndex = 0;
-            this.Logo.TabStop = false;
             // 
             // buttonOpenClients
             // 
             this.buttonOpenClients.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonOpenClients.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonOpenClients.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonOpenClients.ForeColor = System.Drawing.Color.White;
             this.buttonOpenClients.Location = new System.Drawing.Point(10, 106);
             this.buttonOpenClients.Name = "buttonOpenClients";
@@ -65,7 +55,7 @@
             // buttonOpenAgents
             // 
             this.buttonOpenAgents.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonOpenAgents.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonOpenAgents.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonOpenAgents.ForeColor = System.Drawing.Color.White;
             this.buttonOpenAgents.Location = new System.Drawing.Point(10, 160);
             this.buttonOpenAgents.Name = "buttonOpenAgents";
@@ -73,11 +63,12 @@
             this.buttonOpenAgents.TabIndex = 2;
             this.buttonOpenAgents.Text = "Риелторы";
             this.buttonOpenAgents.UseVisualStyleBackColor = false;
+            this.buttonOpenAgents.Click += new System.EventHandler(this.buttonOpenAgents_Click);
             // 
             // buttonOpenRealEstates
             // 
             this.buttonOpenRealEstates.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonOpenRealEstates.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonOpenRealEstates.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonOpenRealEstates.ForeColor = System.Drawing.Color.White;
             this.buttonOpenRealEstates.Location = new System.Drawing.Point(10, 214);
             this.buttonOpenRealEstates.Name = "buttonOpenRealEstates";
@@ -90,7 +81,7 @@
             // buttonOpenDemands
             // 
             this.buttonOpenDemands.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonOpenDemands.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonOpenDemands.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonOpenDemands.ForeColor = System.Drawing.Color.White;
             this.buttonOpenDemands.Location = new System.Drawing.Point(12, 268);
             this.buttonOpenDemands.Name = "buttonOpenDemands";
@@ -102,7 +93,7 @@
             // buttonOpenSupplies
             // 
             this.buttonOpenSupplies.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonOpenSupplies.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonOpenSupplies.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonOpenSupplies.ForeColor = System.Drawing.Color.White;
             this.buttonOpenSupplies.Location = new System.Drawing.Point(12, 322);
             this.buttonOpenSupplies.Name = "buttonOpenSupplies";
@@ -115,7 +106,7 @@
             // buttonOpenDeals
             // 
             this.buttonOpenDeals.BackColor = System.Drawing.Color.DodgerBlue;
-            this.buttonOpenDeals.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonOpenDeals.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonOpenDeals.ForeColor = System.Drawing.Color.White;
             this.buttonOpenDeals.Location = new System.Drawing.Point(10, 376);
             this.buttonOpenDeals.Name = "buttonOpenDeals";
@@ -123,6 +114,16 @@
             this.buttonOpenDeals.TabIndex = 6;
             this.buttonOpenDeals.Text = "Сделки";
             this.buttonOpenDeals.UseVisualStyleBackColor = false;
+            // 
+            // Logo
+            // 
+            this.Logo.Image = global::eSoftProject.Properties.Resources.logo;
+            this.Logo.Location = new System.Drawing.Point(0, 12);
+            this.Logo.Name = "Logo";
+            this.Logo.Size = new System.Drawing.Size(284, 88);
+            this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Logo.TabIndex = 0;
+            this.Logo.TabStop = false;
             // 
             // Menu
             // 

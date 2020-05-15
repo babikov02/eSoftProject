@@ -61,6 +61,12 @@
     <Compile Include="ClientSet.cs">
       <DependentUpon>ModelEsoft.tt</DependentUpon>
     </Compile>
+    <Compile Include="FormAgentSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgentSet.Designer.cs">
+      <DependentUpon>FormAgentSet.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,13 +91,13 @@
       <DependentUpon>ModelEsoft.Context.tt</DependentUpon>
     </Compile>
     <Compile Include="ModelEsoft.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
       <DependentUpon>ModelEsoft.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
     </Compile>
     <Compile Include="ModelEsoft.Designer.cs">
-      <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
       <DependentUpon>ModelEsoft.edmx</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -99,6 +105,9 @@
     <Compile Include="RealEstateSet.cs">
       <DependentUpon>ModelEsoft.tt</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormAgentSet.resx">
+      <DependentUpon>FormAgentSet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMenu.resx">
       <DependentUpon>FormMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -154,8 +163,8 @@
     </Content>
     <Content Include="ModelEsoft.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>ModelEsoft.edmx</DependentUpon>
       <LastGenOutput>ModelEsoft.cs</LastGenOutput>
+      <DependentUpon>ModelEsoft.edmx</DependentUpon>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

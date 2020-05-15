@@ -13,7 +13,7 @@
           <Property Name="LastName" Type="nvarchar(max)" Nullable="false" />
           <Property Name="FirstName" Type="nvarchar(max)" Nullable="false" />
           <Property Name="MiddleName" Type="nvarchar(max)" Nullable="false" />
-          <Property Name="Commission_Share" Type="int" />
+          <Property Name="Commission_Share" Type="float" />
         </EntityType>
         <EntityType Name="ClientSet">
           <Key>
@@ -61,7 +61,7 @@
           <Property Name="LastName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="FirstName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="MiddleName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
-          <Property Name="Commission_Share" Type="Int32" />
+          <Property Name="Commission_Share" Type="Double" />
         </EntityType>
         <EntityType Name="ClientSet">
           <Key>

@@ -18,6 +18,6 @@ namespace eSoftProject
         public string LastName { get; set; }
         public string FirstName { get; set; }
         public string MiddleName { get; set; }
-        public Nullable<int> Commission_Share { get; set; }
+        public Nullable<double> Commission_Share { get; set; }
     }
 }

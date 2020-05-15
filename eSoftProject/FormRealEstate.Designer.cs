@@ -87,115 +87,123 @@
             // 
             // textBoxAddress_City
             // 
-            this.textBoxAddress_City.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxAddress_City.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxAddress_City.Location = new System.Drawing.Point(24, 39);
             this.textBoxAddress_City.Name = "textBoxAddress_City";
-            this.textBoxAddress_City.Size = new System.Drawing.Size(100, 23);
+            this.textBoxAddress_City.Size = new System.Drawing.Size(100, 22);
             this.textBoxAddress_City.TabIndex = 0;
             // 
             // textBoxAddress_Street
             // 
-            this.textBoxAddress_Street.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxAddress_Street.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxAddress_Street.Location = new System.Drawing.Point(24, 84);
             this.textBoxAddress_Street.Name = "textBoxAddress_Street";
-            this.textBoxAddress_Street.Size = new System.Drawing.Size(100, 23);
+            this.textBoxAddress_Street.Size = new System.Drawing.Size(100, 22);
             this.textBoxAddress_Street.TabIndex = 1;
             // 
             // textBoxAddress_House
             // 
-            this.textBoxAddress_House.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxAddress_House.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxAddress_House.Location = new System.Drawing.Point(24, 130);
             this.textBoxAddress_House.Name = "textBoxAddress_House";
-            this.textBoxAddress_House.Size = new System.Drawing.Size(100, 23);
+            this.textBoxAddress_House.Size = new System.Drawing.Size(100, 22);
             this.textBoxAddress_House.TabIndex = 2;
+            this.textBoxAddress_House.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxAddress_House_KeyPress);
             // 
             // textBoxAddress_Number
             // 
-            this.textBoxAddress_Number.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxAddress_Number.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxAddress_Number.Location = new System.Drawing.Point(24, 176);
             this.textBoxAddress_Number.Name = "textBoxAddress_Number";
-            this.textBoxAddress_Number.Size = new System.Drawing.Size(100, 23);
+            this.textBoxAddress_Number.Size = new System.Drawing.Size(128, 22);
             this.textBoxAddress_Number.TabIndex = 3;
+            this.textBoxAddress_Number.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxAddress_Number_KeyPress);
             // 
             // textBoxCoordinate_latitude
             // 
-            this.textBoxCoordinate_latitude.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxCoordinate_latitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCoordinate_latitude.Location = new System.Drawing.Point(200, 39);
             this.textBoxCoordinate_latitude.Name = "textBoxCoordinate_latitude";
-            this.textBoxCoordinate_latitude.Size = new System.Drawing.Size(100, 23);
+            this.textBoxCoordinate_latitude.Size = new System.Drawing.Size(100, 22);
             this.textBoxCoordinate_latitude.TabIndex = 4;
+            this.textBoxCoordinate_latitude.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxCoordinate_latitude_KeyPress);
             // 
             // textBoxCoordinate_longitude
             // 
-            this.textBoxCoordinate_longitude.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxCoordinate_longitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCoordinate_longitude.Location = new System.Drawing.Point(200, 84);
             this.textBoxCoordinate_longitude.Name = "textBoxCoordinate_longitude";
-            this.textBoxCoordinate_longitude.Size = new System.Drawing.Size(100, 23);
+            this.textBoxCoordinate_longitude.Size = new System.Drawing.Size(100, 22);
             this.textBoxCoordinate_longitude.TabIndex = 5;
+            this.textBoxCoordinate_longitude.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxCoordinate_longitude_KeyPress);
             // 
             // textBoxTotalArea
             // 
-            this.textBoxTotalArea.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxTotalArea.Location = new System.Drawing.Point(390, 39);
+            this.textBoxTotalArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxTotalArea.Location = new System.Drawing.Point(361, 39);
             this.textBoxTotalArea.Name = "textBoxTotalArea";
-            this.textBoxTotalArea.Size = new System.Drawing.Size(100, 23);
+            this.textBoxTotalArea.Size = new System.Drawing.Size(100, 22);
             this.textBoxTotalArea.TabIndex = 6;
+            this.textBoxTotalArea.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxTotalArea_KeyPress);
             // 
             // textBoxRooms
             // 
-            this.textBoxRooms.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxRooms.Location = new System.Drawing.Point(390, 84);
+            this.textBoxRooms.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxRooms.Location = new System.Drawing.Point(361, 84);
             this.textBoxRooms.Name = "textBoxRooms";
-            this.textBoxRooms.Size = new System.Drawing.Size(121, 23);
+            this.textBoxRooms.Size = new System.Drawing.Size(150, 22);
             this.textBoxRooms.TabIndex = 7;
+            this.textBoxRooms.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxRooms_KeyPress);
             // 
             // textBoxFloor
             // 
-            this.textBoxFloor.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxFloor.Location = new System.Drawing.Point(390, 131);
+            this.textBoxFloor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxFloor.Location = new System.Drawing.Point(200, 177);
             this.textBoxFloor.Name = "textBoxFloor";
-            this.textBoxFloor.Size = new System.Drawing.Size(100, 23);
+            this.textBoxFloor.Size = new System.Drawing.Size(100, 22);
             this.textBoxFloor.TabIndex = 8;
+            this.textBoxFloor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxFloor_KeyPress);
             // 
             // textBoxTotalFloors
             // 
-            this.textBoxTotalFloors.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxTotalFloors.Location = new System.Drawing.Point(390, 84);
+            this.textBoxTotalFloors.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxTotalFloors.Location = new System.Drawing.Point(362, 84);
             this.textBoxTotalFloors.Name = "textBoxTotalFloors";
-            this.textBoxTotalFloors.Size = new System.Drawing.Size(121, 23);
+            this.textBoxTotalFloors.Size = new System.Drawing.Size(150, 22);
             this.textBoxTotalFloors.TabIndex = 9;
             this.textBoxTotalFloors.Visible = false;
+            this.textBoxTotalFloors.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxTotalFloors_KeyPress);
             // 
             // labelAddress_City
             // 
             this.labelAddress_City.AutoSize = true;
-            this.labelAddress_City.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelAddress_City.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelAddress_City.ForeColor = System.Drawing.Color.White;
             this.labelAddress_City.Location = new System.Drawing.Point(25, 23);
             this.labelAddress_City.Name = "labelAddress_City";
-            this.labelAddress_City.Size = new System.Drawing.Size(42, 15);
+            this.labelAddress_City.Size = new System.Drawing.Size(52, 16);
             this.labelAddress_City.TabIndex = 10;
             this.labelAddress_City.Text = "Город";
             // 
             // labelAddress_Street
             // 
             this.labelAddress_Street.AutoSize = true;
-            this.labelAddress_Street.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelAddress_Street.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelAddress_Street.ForeColor = System.Drawing.Color.White;
             this.labelAddress_Street.Location = new System.Drawing.Point(23, 67);
             this.labelAddress_Street.Name = "labelAddress_Street";
-            this.labelAddress_Street.Size = new System.Drawing.Size(44, 15);
+            this.labelAddress_Street.Size = new System.Drawing.Size(54, 16);
             this.labelAddress_Street.TabIndex = 11;
             this.labelAddress_Street.Text = "Улица";
             // 
             // labelAddress_House
             // 
             this.labelAddress_House.AutoSize = true;
-            this.labelAddress_House.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelAddress_House.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelAddress_House.ForeColor = System.Drawing.Color.White;
             this.labelAddress_House.Location = new System.Drawing.Point(23, 114);
             this.labelAddress_House.Name = "labelAddress_House";
-            this.labelAddress_House.Size = new System.Drawing.Size(82, 15);
+            this.labelAddress_House.Size = new System.Drawing.Size(97, 16);
             this.labelAddress_House.TabIndex = 12;
             this.labelAddress_House.Text = "Номер дома";
             this.labelAddress_House.Click += new System.EventHandler(this.labelAddress_House_Click);
@@ -203,88 +211,88 @@
             // labelAddress_Number
             // 
             this.labelAddress_Number.AutoSize = true;
-            this.labelAddress_Number.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelAddress_Number.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelAddress_Number.ForeColor = System.Drawing.Color.White;
             this.labelAddress_Number.Location = new System.Drawing.Point(21, 159);
             this.labelAddress_Number.Name = "labelAddress_Number";
-            this.labelAddress_Number.Size = new System.Drawing.Size(110, 15);
+            this.labelAddress_Number.Size = new System.Drawing.Size(131, 16);
             this.labelAddress_Number.TabIndex = 13;
             this.labelAddress_Number.Text = "Номер квартиры";
             // 
             // labelCoordinate_latitude
             // 
             this.labelCoordinate_latitude.AutoSize = true;
-            this.labelCoordinate_latitude.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelCoordinate_latitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelCoordinate_latitude.ForeColor = System.Drawing.Color.White;
             this.labelCoordinate_latitude.Location = new System.Drawing.Point(197, 23);
             this.labelCoordinate_latitude.Name = "labelCoordinate_latitude";
-            this.labelCoordinate_latitude.Size = new System.Drawing.Size(54, 15);
+            this.labelCoordinate_latitude.Size = new System.Drawing.Size(64, 16);
             this.labelCoordinate_latitude.TabIndex = 14;
             this.labelCoordinate_latitude.Text = "Широта";
             // 
             // labelCoordinate_longitude
             // 
             this.labelCoordinate_longitude.AutoSize = true;
-            this.labelCoordinate_longitude.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelCoordinate_longitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelCoordinate_longitude.ForeColor = System.Drawing.Color.White;
             this.labelCoordinate_longitude.Location = new System.Drawing.Point(197, 68);
             this.labelCoordinate_longitude.Name = "labelCoordinate_longitude";
-            this.labelCoordinate_longitude.Size = new System.Drawing.Size(57, 15);
+            this.labelCoordinate_longitude.Size = new System.Drawing.Size(69, 16);
             this.labelCoordinate_longitude.TabIndex = 15;
             this.labelCoordinate_longitude.Text = "Дллгота";
             // 
             // labelTotalArea
             // 
             this.labelTotalArea.AutoSize = true;
-            this.labelTotalArea.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelTotalArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelTotalArea.ForeColor = System.Drawing.Color.White;
-            this.labelTotalArea.Location = new System.Drawing.Point(387, 23);
+            this.labelTotalArea.Location = new System.Drawing.Point(358, 23);
             this.labelTotalArea.Name = "labelTotalArea";
-            this.labelTotalArea.Size = new System.Drawing.Size(64, 15);
+            this.labelTotalArea.Size = new System.Drawing.Size(73, 16);
             this.labelTotalArea.TabIndex = 16;
             this.labelTotalArea.Text = "Площадь";
             // 
             // labelType
             // 
             this.labelType.AutoSize = true;
-            this.labelType.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelType.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelType.ForeColor = System.Drawing.Color.White;
             this.labelType.Location = new System.Drawing.Point(197, 114);
             this.labelType.Name = "labelType";
-            this.labelType.Size = new System.Drawing.Size(177, 15);
+            this.labelType.Size = new System.Drawing.Size(214, 16);
             this.labelType.TabIndex = 17;
             this.labelType.Text = "Тип объекта недвижимости";
             // 
             // labelRooms
             // 
             this.labelRooms.AutoSize = true;
-            this.labelRooms.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelRooms.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelRooms.ForeColor = System.Drawing.Color.White;
-            this.labelRooms.Location = new System.Drawing.Point(387, 68);
+            this.labelRooms.Location = new System.Drawing.Point(358, 68);
             this.labelRooms.Name = "labelRooms";
-            this.labelRooms.Size = new System.Drawing.Size(126, 15);
+            this.labelRooms.Size = new System.Drawing.Size(153, 16);
             this.labelRooms.TabIndex = 18;
             this.labelRooms.Text = "Количество комнат";
             // 
             // labelFloor
             // 
             this.labelFloor.AutoSize = true;
-            this.labelFloor.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelFloor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelFloor.ForeColor = System.Drawing.Color.White;
-            this.labelFloor.Location = new System.Drawing.Point(387, 115);
+            this.labelFloor.Location = new System.Drawing.Point(197, 159);
             this.labelFloor.Name = "labelFloor";
-            this.labelFloor.Size = new System.Drawing.Size(40, 15);
+            this.labelFloor.Size = new System.Drawing.Size(46, 16);
             this.labelFloor.TabIndex = 19;
             this.labelFloor.Text = "Этаж";
             // 
             // labelTotalFloors
             // 
             this.labelTotalFloors.AutoSize = true;
-            this.labelTotalFloors.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelTotalFloors.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelTotalFloors.ForeColor = System.Drawing.Color.White;
-            this.labelTotalFloors.Location = new System.Drawing.Point(384, 68);
+            this.labelTotalFloors.Location = new System.Drawing.Point(358, 68);
             this.labelTotalFloors.Name = "labelTotalFloors";
-            this.labelTotalFloors.Size = new System.Drawing.Size(127, 15);
+            this.labelTotalFloors.Size = new System.Drawing.Size(154, 16);
             this.labelTotalFloors.TabIndex = 20;
             this.labelTotalFloors.Text = "Количество этажей";
             this.labelTotalFloors.Visible = false;
@@ -301,7 +309,7 @@
             this.columnHeader8,
             this.columnHeader9,
             this.columnHeader10});
-            this.listViewRealEstateSet_Apartment.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.listViewRealEstateSet_Apartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listViewRealEstateSet_Apartment.ForeColor = System.Drawing.Color.DodgerBlue;
             this.listViewRealEstateSet_Apartment.FullRowSelect = true;
             this.listViewRealEstateSet_Apartment.GridLines = true;
@@ -368,7 +376,7 @@
             this.columnHeader22,
             this.columnHeader23,
             this.columnHeader24});
-            this.listViewRealEstateSet_House.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.listViewRealEstateSet_House.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listViewRealEstateSet_House.ForeColor = System.Drawing.Color.DodgerBlue;
             this.listViewRealEstateSet_House.FullRowSelect = true;
             this.listViewRealEstateSet_House.GridLines = true;
@@ -436,7 +444,7 @@
             this.columnHeader14,
             this.columnHeader15,
             this.columnHeader16});
-            this.listViewRealEstateSet_Land.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.listViewRealEstateSet_Land.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listViewRealEstateSet_Land.ForeColor = System.Drawing.Color.DodgerBlue;
             this.listViewRealEstateSet_Land.FullRowSelect = true;
             this.listViewRealEstateSet_Land.GridLines = true;
@@ -484,7 +492,7 @@
             // 
             this.columnHeader15.Text = "Долгота";
             this.columnHeader15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader15.Width = 101;
+            this.columnHeader15.Width = 103;
             // 
             // columnHeader16
             // 
@@ -494,37 +502,43 @@
             // 
             // buttonAdd
             // 
+            this.buttonAdd.BackColor = System.Drawing.Color.White;
+            this.buttonAdd.ForeColor = System.Drawing.Color.DodgerBlue;
             this.buttonAdd.Location = new System.Drawing.Point(436, 368);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(75, 23);
             this.buttonAdd.TabIndex = 24;
             this.buttonAdd.Text = "Создать";
-            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonEdit
             // 
+            this.buttonEdit.BackColor = System.Drawing.Color.White;
+            this.buttonEdit.ForeColor = System.Drawing.Color.DodgerBlue;
             this.buttonEdit.Location = new System.Drawing.Point(517, 368);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(75, 23);
             this.buttonEdit.TabIndex = 25;
             this.buttonEdit.Text = "Изменить";
-            this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.UseVisualStyleBackColor = false;
             this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // buttonDel
             // 
+            this.buttonDel.BackColor = System.Drawing.Color.White;
+            this.buttonDel.ForeColor = System.Drawing.Color.DodgerBlue;
             this.buttonDel.Location = new System.Drawing.Point(598, 368);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(75, 23);
             this.buttonDel.TabIndex = 26;
             this.buttonDel.Text = "Удалить";
-            this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.UseVisualStyleBackColor = false;
             this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
             // comboBoxType
             // 
-            this.comboBoxType.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.comboBoxType.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBoxType.FormattingEnabled = true;
             this.comboBoxType.Items.AddRange(new object[] {
             "Квартира",
@@ -532,16 +546,16 @@
             "Земля"});
             this.comboBoxType.Location = new System.Drawing.Point(200, 130);
             this.comboBoxType.Name = "comboBoxType";
-            this.comboBoxType.Size = new System.Drawing.Size(174, 23);
+            this.comboBoxType.Size = new System.Drawing.Size(211, 24);
             this.comboBoxType.TabIndex = 27;
             this.comboBoxType.SelectedIndexChanged += new System.EventHandler(this.comboBoxType_SelectedIndexChanged);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::eSoftProject.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(529, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(544, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(147, 80);
+            this.pictureBox1.Size = new System.Drawing.Size(129, 85);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
