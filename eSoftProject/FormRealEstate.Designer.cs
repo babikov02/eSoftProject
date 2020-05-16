@@ -144,6 +144,7 @@
             this.textBoxTotalArea.Name = "textBoxTotalArea";
             this.textBoxTotalArea.Size = new System.Drawing.Size(100, 22);
             this.textBoxTotalArea.TabIndex = 6;
+            this.textBoxTotalArea.TextChanged += new System.EventHandler(this.textBoxTotalArea_TextChanged);
             this.textBoxTotalArea.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxTotalArea_KeyPress);
             // 
             // textBoxRooms
@@ -503,10 +504,12 @@
             // buttonAdd
             // 
             this.buttonAdd.BackColor = System.Drawing.Color.White;
+            this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAdd.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.buttonAdd.Location = new System.Drawing.Point(436, 368);
+            this.buttonAdd.Location = new System.Drawing.Point(431, 371);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(75, 23);
+            this.buttonAdd.Size = new System.Drawing.Size(75, 25);
             this.buttonAdd.TabIndex = 24;
             this.buttonAdd.Text = "Создать";
             this.buttonAdd.UseVisualStyleBackColor = false;
@@ -515,10 +518,12 @@
             // buttonEdit
             // 
             this.buttonEdit.BackColor = System.Drawing.Color.White;
+            this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonEdit.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.buttonEdit.Location = new System.Drawing.Point(517, 368);
+            this.buttonEdit.Location = new System.Drawing.Point(512, 371);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(75, 23);
+            this.buttonEdit.Size = new System.Drawing.Size(80, 25);
             this.buttonEdit.TabIndex = 25;
             this.buttonEdit.Text = "Изменить";
             this.buttonEdit.UseVisualStyleBackColor = false;
@@ -527,10 +532,12 @@
             // buttonDel
             // 
             this.buttonDel.BackColor = System.Drawing.Color.White;
+            this.buttonDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonDel.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.buttonDel.Location = new System.Drawing.Point(598, 368);
+            this.buttonDel.Location = new System.Drawing.Point(598, 371);
             this.buttonDel.Name = "buttonDel";
-            this.buttonDel.Size = new System.Drawing.Size(75, 23);
+            this.buttonDel.Size = new System.Drawing.Size(75, 25);
             this.buttonDel.TabIndex = 26;
             this.buttonDel.Text = "Удалить";
             this.buttonDel.UseVisualStyleBackColor = false;
@@ -565,7 +572,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DodgerBlue;
-            this.ClientSize = new System.Drawing.Size(685, 397);
+            this.ClientSize = new System.Drawing.Size(685, 400);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.comboBoxType);
             this.Controls.Add(this.buttonDel);

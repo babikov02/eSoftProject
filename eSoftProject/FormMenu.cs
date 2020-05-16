@@ -24,6 +24,7 @@ namespace eSoftProject
 
         private void buttonOpenClients_Click(object sender, EventArgs e)
         {
+            
             Form formClient = new FormClient();
             formClient.Show();
         }
@@ -38,6 +39,11 @@ namespace eSoftProject
         {
             Form formAgentSet = new FormAgentSet();
             formAgentSet.Show();
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

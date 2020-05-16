@@ -402,47 +402,27 @@ namespace eSoftProject
 
         private void textBoxAddress_House_KeyPress(object sender, KeyPressEventArgs e)
         {
-            char number = e.KeyChar;
-            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8)
-            {
-                e.Handled = true;
-            }
+            
         }
 
         private void textBoxAddress_Number_KeyPress(object sender, KeyPressEventArgs e)
         {
-            char number = e.KeyChar;
-            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8)
-            {
-                e.Handled = true;
-            }
+            
         }
 
         private void textBoxFloor_KeyPress(object sender, KeyPressEventArgs e)
         {
-            char number = e.KeyChar;
-            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8)
-            {
-                e.Handled = true;
-            }
+            
         }
 
         private void textBoxTotalArea_KeyPress(object sender, KeyPressEventArgs e)
         {
-            char number = e.KeyChar;
-            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8 && number != 44) 
-            {
-                e.Handled = true;
-            }
+            
         }
 
         private void textBoxTotalFloors_KeyPress(object sender, KeyPressEventArgs e)
         {
-            char number = e.KeyChar;
-            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8)
-            {
-                e.Handled = true;
-            }
+            
         }
 
         private void textBoxCoordinate_latitude_KeyPress(object sender, KeyPressEventArgs e)
@@ -465,11 +445,12 @@ namespace eSoftProject
 
         private void textBoxRooms_KeyPress(object sender, KeyPressEventArgs e)
         {
-            char number = e.KeyChar;
-            if ((e.KeyChar <= 47 || e.KeyChar >= 58) && number != 8)
-            {
-                e.Handled = true;
-            }
+            
+        }
+
+        private void textBoxTotalArea_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

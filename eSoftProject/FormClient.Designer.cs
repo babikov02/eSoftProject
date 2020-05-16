@@ -209,11 +209,12 @@
             // buttonAdd
             // 
             this.buttonAdd.BackColor = System.Drawing.Color.White;
+            this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAdd.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.buttonAdd.Location = new System.Drawing.Point(366, 315);
+            this.buttonAdd.Location = new System.Drawing.Point(356, 315);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(78, 23);
+            this.buttonAdd.Size = new System.Drawing.Size(80, 25);
             this.buttonAdd.TabIndex = 11;
             this.buttonAdd.Text = "Создать";
             this.buttonAdd.UseVisualStyleBackColor = false;
@@ -222,11 +223,12 @@
             // buttonEdit
             // 
             this.buttonEdit.BackColor = System.Drawing.Color.White;
+            this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonEdit.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.buttonEdit.Location = new System.Drawing.Point(450, 315);
+            this.buttonEdit.Location = new System.Drawing.Point(442, 315);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(89, 23);
+            this.buttonEdit.Size = new System.Drawing.Size(91, 25);
             this.buttonEdit.TabIndex = 12;
             this.buttonEdit.Text = "Изменить";
             this.buttonEdit.UseVisualStyleBackColor = false;
@@ -235,11 +237,12 @@
             // buttonDel
             // 
             this.buttonDel.BackColor = System.Drawing.Color.White;
+            this.buttonDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonDel.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.buttonDel.Location = new System.Drawing.Point(545, 315);
+            this.buttonDel.Location = new System.Drawing.Point(539, 315);
             this.buttonDel.Name = "buttonDel";
-            this.buttonDel.Size = new System.Drawing.Size(79, 23);
+            this.buttonDel.Size = new System.Drawing.Size(85, 25);
             this.buttonDel.TabIndex = 13;
             this.buttonDel.Text = "Удалить";
             this.buttonDel.UseVisualStyleBackColor = false;
