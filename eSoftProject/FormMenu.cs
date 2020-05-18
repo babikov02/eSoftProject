@@ -45,5 +45,11 @@ namespace eSoftProject
         {
             
         }
+
+        private void buttonOpenDemands_Click(object sender, EventArgs e)
+        {
+            Form formSupply = new FormSupply();
+            formSupply.Show();
+        }
     }
 }

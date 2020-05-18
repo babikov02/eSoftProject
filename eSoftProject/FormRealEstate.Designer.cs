@@ -142,7 +142,7 @@
             this.textBoxTotalArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxTotalArea.Location = new System.Drawing.Point(361, 39);
             this.textBoxTotalArea.Name = "textBoxTotalArea";
-            this.textBoxTotalArea.Size = new System.Drawing.Size(100, 22);
+            this.textBoxTotalArea.Size = new System.Drawing.Size(150, 22);
             this.textBoxTotalArea.TabIndex = 6;
             this.textBoxTotalArea.TextChanged += new System.EventHandler(this.textBoxTotalArea_TextChanged);
             this.textBoxTotalArea.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxTotalArea_KeyPress);
@@ -453,7 +453,7 @@
             this.listViewRealEstateSet_Land.Location = new System.Drawing.Point(12, 205);
             this.listViewRealEstateSet_Land.MultiSelect = false;
             this.listViewRealEstateSet_Land.Name = "listViewRealEstateSet_Land";
-            this.listViewRealEstateSet_Land.Size = new System.Drawing.Size(664, 160);
+            this.listViewRealEstateSet_Land.Size = new System.Drawing.Size(699, 160);
             this.listViewRealEstateSet_Land.TabIndex = 23;
             this.listViewRealEstateSet_Land.UseCompatibleStateImageBehavior = false;
             this.listViewRealEstateSet_Land.View = System.Windows.Forms.View.Details;
@@ -475,13 +475,13 @@
             // 
             this.columnHeader12.Text = "Номер дома";
             this.columnHeader12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader12.Width = 94;
+            this.columnHeader12.Width = 98;
             // 
             // columnHeader13
             // 
             this.columnHeader13.Text = "Номер квартиры";
             this.columnHeader13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader13.Width = 112;
+            this.columnHeader13.Width = 139;
             // 
             // columnHeader14
             // 
@@ -507,7 +507,7 @@
             this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAdd.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.buttonAdd.Location = new System.Drawing.Point(431, 371);
+            this.buttonAdd.Location = new System.Drawing.Point(469, 371);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(75, 25);
             this.buttonAdd.TabIndex = 24;
@@ -521,7 +521,7 @@
             this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonEdit.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.buttonEdit.Location = new System.Drawing.Point(512, 371);
+            this.buttonEdit.Location = new System.Drawing.Point(550, 371);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(80, 25);
             this.buttonEdit.TabIndex = 25;
@@ -535,7 +535,7 @@
             this.buttonDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonDel.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.buttonDel.Location = new System.Drawing.Point(598, 371);
+            this.buttonDel.Location = new System.Drawing.Point(636, 371);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(75, 25);
             this.buttonDel.TabIndex = 26;
@@ -560,9 +560,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::eSoftProject.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(544, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(571, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(129, 85);
+            this.pictureBox1.Size = new System.Drawing.Size(140, 94);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
@@ -572,7 +572,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DodgerBlue;
-            this.ClientSize = new System.Drawing.Size(685, 400);
+            this.ClientSize = new System.Drawing.Size(723, 400);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.comboBoxType);
             this.Controls.Add(this.buttonDel);

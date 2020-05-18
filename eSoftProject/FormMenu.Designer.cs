@@ -93,6 +93,7 @@
             this.buttonOpenDemands.TabIndex = 4;
             this.buttonOpenDemands.Text = "Предложения";
             this.buttonOpenDemands.UseVisualStyleBackColor = false;
+            this.buttonOpenDemands.Click += new System.EventHandler(this.buttonOpenDemands_Click);
             // 
             // buttonOpenSupplies
             // 
@@ -135,6 +136,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(287, 445);
             this.Controls.Add(this.buttonOpenDeals);
             this.Controls.Add(this.buttonOpenSupplies);
