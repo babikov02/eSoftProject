@@ -292,7 +292,7 @@
             this.labelTotalFloors.AutoSize = true;
             this.labelTotalFloors.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelTotalFloors.ForeColor = System.Drawing.Color.White;
-            this.labelTotalFloors.Location = new System.Drawing.Point(358, 68);
+            this.labelTotalFloors.Location = new System.Drawing.Point(359, 68);
             this.labelTotalFloors.Name = "labelTotalFloors";
             this.labelTotalFloors.Size = new System.Drawing.Size(154, 16);
             this.labelTotalFloors.TabIndex = 20;
@@ -319,7 +319,7 @@
             this.listViewRealEstateSet_Apartment.Location = new System.Drawing.Point(12, 205);
             this.listViewRealEstateSet_Apartment.MultiSelect = false;
             this.listViewRealEstateSet_Apartment.Name = "listViewRealEstateSet_Apartment";
-            this.listViewRealEstateSet_Apartment.Size = new System.Drawing.Size(664, 160);
+            this.listViewRealEstateSet_Apartment.Size = new System.Drawing.Size(699, 160);
             this.listViewRealEstateSet_Apartment.TabIndex = 21;
             this.listViewRealEstateSet_Apartment.UseCompatibleStateImageBehavior = false;
             this.listViewRealEstateSet_Apartment.View = System.Windows.Forms.View.Details;
@@ -333,30 +333,32 @@
             // columnHeader3
             // 
             this.columnHeader3.Text = "Улица";
-            this.columnHeader3.Width = 49;
+            this.columnHeader3.Width = 54;
             // 
             // columnHeader4
             // 
             this.columnHeader4.Text = "Номер дома";
-            this.columnHeader4.Width = 78;
+            this.columnHeader4.Width = 95;
             // 
             // columnHeader5
             // 
             this.columnHeader5.Text = "Номер квартиры";
-            this.columnHeader5.Width = 99;
+            this.columnHeader5.Width = 101;
             // 
             // columnHeader6
             // 
             this.columnHeader6.Text = "Широта";
+            this.columnHeader6.Width = 64;
             // 
             // columnHeader7
             // 
             this.columnHeader7.Text = "Долгота";
+            this.columnHeader7.Width = 67;
             // 
             // columnHeader8
             // 
             this.columnHeader8.Text = "Площадь";
-            this.columnHeader8.Width = 68;
+            this.columnHeader8.Width = 69;
             // 
             // columnHeader9
             // 
@@ -386,7 +388,7 @@
             this.listViewRealEstateSet_House.Location = new System.Drawing.Point(12, 205);
             this.listViewRealEstateSet_House.MultiSelect = false;
             this.listViewRealEstateSet_House.Name = "listViewRealEstateSet_House";
-            this.listViewRealEstateSet_House.Size = new System.Drawing.Size(664, 160);
+            this.listViewRealEstateSet_House.Size = new System.Drawing.Size(699, 160);
             this.listViewRealEstateSet_House.TabIndex = 22;
             this.listViewRealEstateSet_House.UseCompatibleStateImageBehavior = false;
             this.listViewRealEstateSet_House.View = System.Windows.Forms.View.Details;
@@ -412,17 +414,19 @@
             // 
             this.columnHeader20.Text = "Номер квартиры";
             this.columnHeader20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader20.Width = 112;
+            this.columnHeader20.Width = 128;
             // 
             // columnHeader21
             // 
             this.columnHeader21.Text = "Широта";
             this.columnHeader21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader21.Width = 71;
             // 
             // columnHeader22
             // 
             this.columnHeader22.Text = "Долгота";
             this.columnHeader22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader22.Width = 67;
             // 
             // columnHeader23
             // 

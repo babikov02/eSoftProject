@@ -19,7 +19,8 @@ namespace eSoftProject
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            Form formDemandSet = new FormDemandSet();
+            formDemandSet.Show();
         }
 
         private void buttonOpenClients_Click(object sender, EventArgs e)

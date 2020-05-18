@@ -112,6 +112,11 @@ namespace eSoftProject
         {
 
         }
+
+        private void FormClient_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }
