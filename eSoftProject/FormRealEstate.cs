@@ -452,5 +452,10 @@ namespace eSoftProject
         {
 
         }
+
+        private void textBoxCoordinate_latitude_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
