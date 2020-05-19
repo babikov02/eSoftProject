@@ -52,31 +52,6 @@
             this.labelMinFloor = new System.Windows.Forms.Label();
             this.labelMaxFloor = new System.Windows.Forms.Label();
             this.listViewDemandSet_Apartment = new System.Windows.Forms.ListView();
-            this.listViewDemandSet_House = new System.Windows.Forms.ListView();
-            this.listViewDemandSet_Land = new System.Windows.Forms.ListView();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.labelMinRooms = new System.Windows.Forms.Label();
-            this.labelMaxRooms = new System.Windows.Forms.Label();
-            this.textBoxMinRooms = new System.Windows.Forms.TextBox();
-            this.textBoxMaxRooms = new System.Windows.Forms.TextBox();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader21 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader22 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader23 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -89,6 +64,31 @@
             this.columnHeader30 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader31 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader32 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listViewDemandSet_House = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listViewDemandSet_Land = new System.Windows.Forms.ListView();
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.labelMinRooms = new System.Windows.Forms.Label();
+            this.labelMaxRooms = new System.Windows.Forms.Label();
+            this.textBoxMinRooms = new System.Windows.Forms.TextBox();
+            this.textBoxMaxRooms = new System.Windows.Forms.TextBox();
             this.buttonAdd = new System.Windows.Forms.Button();
             this.buttonEdit = new System.Windows.Forms.Button();
             this.buttonDel = new System.Windows.Forms.Button();
@@ -127,6 +127,7 @@
             // textBoxMinPrice
             // 
             this.textBoxMinPrice.Location = new System.Drawing.Point(207, 110);
+            this.textBoxMinPrice.MaxLength = 80;
             this.textBoxMinPrice.Name = "textBoxMinPrice";
             this.textBoxMinPrice.Size = new System.Drawing.Size(198, 20);
             this.textBoxMinPrice.TabIndex = 4;
@@ -135,6 +136,7 @@
             // textBoxMaxPrice
             // 
             this.textBoxMaxPrice.Location = new System.Drawing.Point(478, 111);
+            this.textBoxMaxPrice.MaxLength = 80;
             this.textBoxMaxPrice.Name = "textBoxMaxPrice";
             this.textBoxMaxPrice.Size = new System.Drawing.Size(195, 20);
             this.textBoxMaxPrice.TabIndex = 5;
@@ -143,6 +145,7 @@
             // textBoxMinArea
             // 
             this.textBoxMinArea.Location = new System.Drawing.Point(207, 162);
+            this.textBoxMinArea.MaxLength = 80;
             this.textBoxMinArea.Name = "textBoxMinArea";
             this.textBoxMinArea.Size = new System.Drawing.Size(198, 20);
             this.textBoxMinArea.TabIndex = 6;
@@ -151,6 +154,7 @@
             // textBoxMaxArea
             // 
             this.textBoxMaxArea.Location = new System.Drawing.Point(478, 162);
+            this.textBoxMaxArea.MaxLength = 80;
             this.textBoxMaxArea.Name = "textBoxMaxArea";
             this.textBoxMaxArea.Size = new System.Drawing.Size(195, 20);
             this.textBoxMaxArea.TabIndex = 7;
@@ -159,6 +163,7 @@
             // textBoxMaxFloor
             // 
             this.textBoxMaxFloor.Location = new System.Drawing.Point(478, 54);
+            this.textBoxMaxFloor.MaxLength = 80;
             this.textBoxMaxFloor.Name = "textBoxMaxFloor";
             this.textBoxMaxFloor.Size = new System.Drawing.Size(195, 20);
             this.textBoxMaxFloor.TabIndex = 8;
@@ -167,6 +172,7 @@
             // textBoxMinFloor
             // 
             this.textBoxMinFloor.Location = new System.Drawing.Point(207, 54);
+            this.textBoxMinFloor.MaxLength = 80;
             this.textBoxMinFloor.Name = "textBoxMinFloor";
             this.textBoxMinFloor.Size = new System.Drawing.Size(198, 20);
             this.textBoxMinFloor.TabIndex = 9;
@@ -175,6 +181,7 @@
             // textBoxMaxFloors
             // 
             this.textBoxMaxFloors.Location = new System.Drawing.Point(478, 54);
+            this.textBoxMaxFloors.MaxLength = 80;
             this.textBoxMaxFloors.Name = "textBoxMaxFloors";
             this.textBoxMaxFloors.Size = new System.Drawing.Size(195, 20);
             this.textBoxMaxFloors.TabIndex = 10;
@@ -183,6 +190,7 @@
             // textBoxMinFloors
             // 
             this.textBoxMinFloors.Location = new System.Drawing.Point(207, 54);
+            this.textBoxMinFloors.MaxLength = 80;
             this.textBoxMinFloors.Name = "textBoxMinFloors";
             this.textBoxMinFloors.Size = new System.Drawing.Size(198, 20);
             this.textBoxMinFloors.TabIndex = 11;
@@ -341,212 +349,6 @@
             this.listViewDemandSet_Apartment.View = System.Windows.Forms.View.Details;
             this.listViewDemandSet_Apartment.SelectedIndexChanged += new System.EventHandler(this.listViewDemandSet_Apartment_SelectedIndexChanged);
             // 
-            // listViewDemandSet_House
-            // 
-            this.listViewDemandSet_House.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5,
-            this.columnHeader6,
-            this.columnHeader7,
-            this.columnHeader8,
-            this.columnHeader9,
-            this.columnHeader10});
-            this.listViewDemandSet_House.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.listViewDemandSet_House.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.listViewDemandSet_House.FullRowSelect = true;
-            this.listViewDemandSet_House.GridLines = true;
-            this.listViewDemandSet_House.HideSelection = false;
-            this.listViewDemandSet_House.Location = new System.Drawing.Point(12, 243);
-            this.listViewDemandSet_House.MultiSelect = false;
-            this.listViewDemandSet_House.Name = "listViewDemandSet_House";
-            this.listViewDemandSet_House.Size = new System.Drawing.Size(1213, 130);
-            this.listViewDemandSet_House.TabIndex = 25;
-            this.listViewDemandSet_House.UseCompatibleStateImageBehavior = false;
-            this.listViewDemandSet_House.View = System.Windows.Forms.View.Details;
-            this.listViewDemandSet_House.SelectedIndexChanged += new System.EventHandler(this.listViewDemandSet_House_SelectedIndexChanged);
-            // 
-            // listViewDemandSet_Land
-            // 
-            this.listViewDemandSet_Land.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader11,
-            this.columnHeader12,
-            this.columnHeader13,
-            this.columnHeader14,
-            this.columnHeader15,
-            this.columnHeader16,
-            this.columnHeader17,
-            this.columnHeader18});
-            this.listViewDemandSet_Land.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.listViewDemandSet_Land.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.listViewDemandSet_Land.FullRowSelect = true;
-            this.listViewDemandSet_Land.GridLines = true;
-            this.listViewDemandSet_Land.HideSelection = false;
-            this.listViewDemandSet_Land.Location = new System.Drawing.Point(12, 244);
-            this.listViewDemandSet_Land.MultiSelect = false;
-            this.listViewDemandSet_Land.Name = "listViewDemandSet_Land";
-            this.listViewDemandSet_Land.Size = new System.Drawing.Size(1213, 130);
-            this.listViewDemandSet_Land.TabIndex = 26;
-            this.listViewDemandSet_Land.UseCompatibleStateImageBehavior = false;
-            this.listViewDemandSet_Land.View = System.Windows.Forms.View.Details;
-            this.listViewDemandSet_Land.SelectedIndexChanged += new System.EventHandler(this.listViewDemandSet_Land_SelectedIndexChanged);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::eSoftProject.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(121, 75);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 27;
-            this.pictureBox1.TabStop = false;
-            // 
-            // labelMinRooms
-            // 
-            this.labelMinRooms.AutoSize = true;
-            this.labelMinRooms.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelMinRooms.ForeColor = System.Drawing.Color.White;
-            this.labelMinRooms.Location = new System.Drawing.Point(204, 201);
-            this.labelMinRooms.Name = "labelMinRooms";
-            this.labelMinRooms.Size = new System.Drawing.Size(158, 16);
-            this.labelMinRooms.TabIndex = 28;
-            this.labelMinRooms.Text = "Минимально комнат";
-            // 
-            // labelMaxRooms
-            // 
-            this.labelMaxRooms.AutoSize = true;
-            this.labelMaxRooms.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelMaxRooms.ForeColor = System.Drawing.Color.White;
-            this.labelMaxRooms.Location = new System.Drawing.Point(475, 201);
-            this.labelMaxRooms.Name = "labelMaxRooms";
-            this.labelMaxRooms.Size = new System.Drawing.Size(165, 16);
-            this.labelMaxRooms.TabIndex = 29;
-            this.labelMaxRooms.Text = "Максимально комнат";
-            // 
-            // textBoxMinRooms
-            // 
-            this.textBoxMinRooms.Location = new System.Drawing.Point(207, 217);
-            this.textBoxMinRooms.Name = "textBoxMinRooms";
-            this.textBoxMinRooms.Size = new System.Drawing.Size(198, 20);
-            this.textBoxMinRooms.TabIndex = 30;
-            this.textBoxMinRooms.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxMinRooms_KeyPress);
-            // 
-            // textBoxMaxRooms
-            // 
-            this.textBoxMaxRooms.Location = new System.Drawing.Point(478, 217);
-            this.textBoxMaxRooms.Name = "textBoxMaxRooms";
-            this.textBoxMaxRooms.Size = new System.Drawing.Size(195, 20);
-            this.textBoxMaxRooms.TabIndex = 31;
-            this.textBoxMaxRooms.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
-            this.textBoxMaxRooms.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxMaxRooms_KeyPress);
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Id Риелтора";
-            this.columnHeader1.Width = 92;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "ФИО риелтора";
-            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 148;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Id Клиента";
-            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader3.Width = 96;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "ФИО клиента";
-            this.columnHeader4.Width = 149;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Мин. цена";
-            this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader5.Width = 106;
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Макс. цена";
-            this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader6.Width = 122;
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "Мин. площадь";
-            this.columnHeader7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader7.Width = 128;
-            // 
-            // columnHeader8
-            // 
-            this.columnHeader8.Text = "Макс. площадь";
-            this.columnHeader8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader8.Width = 127;
-            // 
-            // columnHeader9
-            // 
-            this.columnHeader9.Text = "Мин. этажность";
-            this.columnHeader9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader9.Width = 117;
-            // 
-            // columnHeader10
-            // 
-            this.columnHeader10.Text = "Макс. этажность";
-            this.columnHeader10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader10.Width = 122;
-            // 
-            // columnHeader11
-            // 
-            this.columnHeader11.Text = "Id Риелтора";
-            this.columnHeader11.Width = 105;
-            // 
-            // columnHeader12
-            // 
-            this.columnHeader12.Text = "ФИО риелтора";
-            this.columnHeader12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader12.Width = 227;
-            // 
-            // columnHeader13
-            // 
-            this.columnHeader13.Text = "Id Клиента";
-            this.columnHeader13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader13.Width = 107;
-            // 
-            // columnHeader14
-            // 
-            this.columnHeader14.Text = "ФИО клиента";
-            this.columnHeader14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader14.Width = 201;
-            // 
-            // columnHeader15
-            // 
-            this.columnHeader15.Text = "Мин. цена";
-            this.columnHeader15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader15.Width = 146;
-            // 
-            // columnHeader16
-            // 
-            this.columnHeader16.Text = "Макс. цена";
-            this.columnHeader16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader16.Width = 137;
-            // 
-            // columnHeader17
-            // 
-            this.columnHeader17.Text = "Мин. площадь";
-            this.columnHeader17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader17.Width = 153;
-            // 
-            // columnHeader18
-            // 
-            this.columnHeader18.Text = "Макс. площадь";
-            this.columnHeader18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader18.Width = 132;
-            // 
             // columnHeader21
             // 
             this.columnHeader21.Text = "Id Риелтора";
@@ -617,6 +419,214 @@
             this.columnHeader32.Text = "Макс. комнат";
             this.columnHeader32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader32.Width = 101;
+            // 
+            // listViewDemandSet_House
+            // 
+            this.listViewDemandSet_House.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4,
+            this.columnHeader5,
+            this.columnHeader6,
+            this.columnHeader7,
+            this.columnHeader8,
+            this.columnHeader9,
+            this.columnHeader10});
+            this.listViewDemandSet_House.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.listViewDemandSet_House.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.listViewDemandSet_House.FullRowSelect = true;
+            this.listViewDemandSet_House.GridLines = true;
+            this.listViewDemandSet_House.HideSelection = false;
+            this.listViewDemandSet_House.Location = new System.Drawing.Point(12, 243);
+            this.listViewDemandSet_House.MultiSelect = false;
+            this.listViewDemandSet_House.Name = "listViewDemandSet_House";
+            this.listViewDemandSet_House.Size = new System.Drawing.Size(1213, 130);
+            this.listViewDemandSet_House.TabIndex = 25;
+            this.listViewDemandSet_House.UseCompatibleStateImageBehavior = false;
+            this.listViewDemandSet_House.View = System.Windows.Forms.View.Details;
+            this.listViewDemandSet_House.SelectedIndexChanged += new System.EventHandler(this.listViewDemandSet_House_SelectedIndexChanged);
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Id Риелтора";
+            this.columnHeader1.Width = 92;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "ФИО риелтора";
+            this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader2.Width = 148;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Id Клиента";
+            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader3.Width = 96;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "ФИО клиента";
+            this.columnHeader4.Width = 149;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Мин. цена";
+            this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader5.Width = 106;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Макс. цена";
+            this.columnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader6.Width = 122;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "Мин. площадь";
+            this.columnHeader7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader7.Width = 128;
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "Макс. площадь";
+            this.columnHeader8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader8.Width = 127;
+            // 
+            // columnHeader9
+            // 
+            this.columnHeader9.Text = "Мин. этажность";
+            this.columnHeader9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader9.Width = 117;
+            // 
+            // columnHeader10
+            // 
+            this.columnHeader10.Text = "Макс. этажность";
+            this.columnHeader10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader10.Width = 122;
+            // 
+            // listViewDemandSet_Land
+            // 
+            this.listViewDemandSet_Land.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader11,
+            this.columnHeader12,
+            this.columnHeader13,
+            this.columnHeader14,
+            this.columnHeader15,
+            this.columnHeader16,
+            this.columnHeader17,
+            this.columnHeader18});
+            this.listViewDemandSet_Land.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.listViewDemandSet_Land.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.listViewDemandSet_Land.FullRowSelect = true;
+            this.listViewDemandSet_Land.GridLines = true;
+            this.listViewDemandSet_Land.HideSelection = false;
+            this.listViewDemandSet_Land.Location = new System.Drawing.Point(12, 244);
+            this.listViewDemandSet_Land.MultiSelect = false;
+            this.listViewDemandSet_Land.Name = "listViewDemandSet_Land";
+            this.listViewDemandSet_Land.Size = new System.Drawing.Size(1213, 130);
+            this.listViewDemandSet_Land.TabIndex = 26;
+            this.listViewDemandSet_Land.UseCompatibleStateImageBehavior = false;
+            this.listViewDemandSet_Land.View = System.Windows.Forms.View.Details;
+            this.listViewDemandSet_Land.SelectedIndexChanged += new System.EventHandler(this.listViewDemandSet_Land_SelectedIndexChanged);
+            // 
+            // columnHeader11
+            // 
+            this.columnHeader11.Text = "Id Риелтора";
+            this.columnHeader11.Width = 105;
+            // 
+            // columnHeader12
+            // 
+            this.columnHeader12.Text = "ФИО риелтора";
+            this.columnHeader12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader12.Width = 227;
+            // 
+            // columnHeader13
+            // 
+            this.columnHeader13.Text = "Id Клиента";
+            this.columnHeader13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader13.Width = 107;
+            // 
+            // columnHeader14
+            // 
+            this.columnHeader14.Text = "ФИО клиента";
+            this.columnHeader14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader14.Width = 201;
+            // 
+            // columnHeader15
+            // 
+            this.columnHeader15.Text = "Мин. цена";
+            this.columnHeader15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader15.Width = 146;
+            // 
+            // columnHeader16
+            // 
+            this.columnHeader16.Text = "Макс. цена";
+            this.columnHeader16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader16.Width = 137;
+            // 
+            // columnHeader17
+            // 
+            this.columnHeader17.Text = "Мин. площадь";
+            this.columnHeader17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader17.Width = 153;
+            // 
+            // columnHeader18
+            // 
+            this.columnHeader18.Text = "Макс. площадь";
+            this.columnHeader18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader18.Width = 132;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::eSoftProject.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(121, 75);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 27;
+            this.pictureBox1.TabStop = false;
+            // 
+            // labelMinRooms
+            // 
+            this.labelMinRooms.AutoSize = true;
+            this.labelMinRooms.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelMinRooms.ForeColor = System.Drawing.Color.White;
+            this.labelMinRooms.Location = new System.Drawing.Point(204, 201);
+            this.labelMinRooms.Name = "labelMinRooms";
+            this.labelMinRooms.Size = new System.Drawing.Size(158, 16);
+            this.labelMinRooms.TabIndex = 28;
+            this.labelMinRooms.Text = "Минимально комнат";
+            // 
+            // labelMaxRooms
+            // 
+            this.labelMaxRooms.AutoSize = true;
+            this.labelMaxRooms.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelMaxRooms.ForeColor = System.Drawing.Color.White;
+            this.labelMaxRooms.Location = new System.Drawing.Point(475, 201);
+            this.labelMaxRooms.Name = "labelMaxRooms";
+            this.labelMaxRooms.Size = new System.Drawing.Size(165, 16);
+            this.labelMaxRooms.TabIndex = 29;
+            this.labelMaxRooms.Text = "Максимально комнат";
+            // 
+            // textBoxMinRooms
+            // 
+            this.textBoxMinRooms.Location = new System.Drawing.Point(207, 217);
+            this.textBoxMinRooms.MaxLength = 80;
+            this.textBoxMinRooms.Name = "textBoxMinRooms";
+            this.textBoxMinRooms.Size = new System.Drawing.Size(198, 20);
+            this.textBoxMinRooms.TabIndex = 30;
+            this.textBoxMinRooms.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxMinRooms_KeyPress);
+            // 
+            // textBoxMaxRooms
+            // 
+            this.textBoxMaxRooms.Location = new System.Drawing.Point(478, 217);
+            this.textBoxMaxRooms.MaxLength = 80;
+            this.textBoxMaxRooms.Name = "textBoxMaxRooms";
+            this.textBoxMaxRooms.Size = new System.Drawing.Size(195, 20);
+            this.textBoxMaxRooms.TabIndex = 31;
+            this.textBoxMaxRooms.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
+            this.textBoxMaxRooms.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxMaxRooms_KeyPress);
             // 
             // buttonAdd
             // 

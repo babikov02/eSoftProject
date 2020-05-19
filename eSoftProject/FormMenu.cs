@@ -15,6 +15,8 @@ namespace eSoftProject
         public Menu()
         {
             InitializeComponent();
+            if (FormAuthorization.users.type == "agent") buttonOpenAgents.Enabled = false;
+            labelHello.Text = "Приветствую тебя, " + FormAuthorization.users.login;
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -51,6 +53,12 @@ namespace eSoftProject
         {
             Form formSupply = new FormSupply();
             formSupply.Show();
+        }
+
+        private void buttonOpenDeals_Click(object sender, EventArgs e)
+        {
+            Form formDeal = new FormDeal();
+            formDeal.Show();
         }
     }
 }

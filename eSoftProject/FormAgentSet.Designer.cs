@@ -97,6 +97,7 @@
             // textBoxFirstName
             // 
             this.textBoxFirstName.Location = new System.Drawing.Point(12, 105);
+            this.textBoxFirstName.MaxLength = 80;
             this.textBoxFirstName.Name = "textBoxFirstName";
             this.textBoxFirstName.Size = new System.Drawing.Size(139, 20);
             this.textBoxFirstName.TabIndex = 4;
@@ -105,6 +106,7 @@
             // textBoxLastName
             // 
             this.textBoxLastName.Location = new System.Drawing.Point(12, 157);
+            this.textBoxLastName.MaxLength = 80;
             this.textBoxLastName.Name = "textBoxLastName";
             this.textBoxLastName.Size = new System.Drawing.Size(139, 20);
             this.textBoxLastName.TabIndex = 5;
@@ -112,6 +114,7 @@
             // textBoxMiddleName
             // 
             this.textBoxMiddleName.Location = new System.Drawing.Point(12, 209);
+            this.textBoxMiddleName.MaxLength = 80;
             this.textBoxMiddleName.Name = "textBoxMiddleName";
             this.textBoxMiddleName.Size = new System.Drawing.Size(139, 20);
             this.textBoxMiddleName.TabIndex = 6;
@@ -119,9 +122,11 @@
             // textBoxShare
             // 
             this.textBoxShare.Location = new System.Drawing.Point(12, 259);
+            this.textBoxShare.MaxLength = 80;
             this.textBoxShare.Name = "textBoxShare";
             this.textBoxShare.Size = new System.Drawing.Size(139, 20);
             this.textBoxShare.TabIndex = 7;
+            this.textBoxShare.TextChanged += new System.EventHandler(this.textBoxShare_TextChanged);
             this.textBoxShare.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxShare_KeyPress);
             // 
             // listViewAgentSet

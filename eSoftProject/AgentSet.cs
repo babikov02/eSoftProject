@@ -25,7 +25,7 @@ namespace eSoftProject
         public string LastName { get; set; }
         public string FirstName { get; set; }
         public string MiddleName { get; set; }
-        public Nullable<double> Commission_Share { get; set; }
+        public Nullable<double> DealShare { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<DemandSet> DemandSet { get; set; }

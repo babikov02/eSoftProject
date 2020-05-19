@@ -114,6 +114,7 @@
             // 
             this.textBoxFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxFirstName.Location = new System.Drawing.Point(12, 83);
+            this.textBoxFirstName.MaxLength = 80;
             this.textBoxFirstName.Name = "textBoxFirstName";
             this.textBoxFirstName.Size = new System.Drawing.Size(100, 22);
             this.textBoxFirstName.TabIndex = 5;
@@ -122,6 +123,7 @@
             // 
             this.textBoxMiddleName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxMiddleName.Location = new System.Drawing.Point(12, 134);
+            this.textBoxMiddleName.MaxLength = 80;
             this.textBoxMiddleName.Name = "textBoxMiddleName";
             this.textBoxMiddleName.Size = new System.Drawing.Size(100, 22);
             this.textBoxMiddleName.TabIndex = 6;
@@ -130,6 +132,7 @@
             // 
             this.textBoxLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxLastName.Location = new System.Drawing.Point(12, 185);
+            this.textBoxLastName.MaxLength = 80;
             this.textBoxLastName.Name = "textBoxLastName";
             this.textBoxLastName.Size = new System.Drawing.Size(100, 22);
             this.textBoxLastName.TabIndex = 7;
@@ -138,6 +141,7 @@
             // 
             this.textBoxPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxPhone.Location = new System.Drawing.Point(12, 236);
+            this.textBoxPhone.MaxLength = 80;
             this.textBoxPhone.Name = "textBoxPhone";
             this.textBoxPhone.Size = new System.Drawing.Size(100, 22);
             this.textBoxPhone.TabIndex = 8;
@@ -146,6 +150,7 @@
             // 
             this.textBoxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxEmail.Location = new System.Drawing.Point(12, 287);
+            this.textBoxEmail.MaxLength = 80;
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(100, 22);
             this.textBoxEmail.TabIndex = 9;

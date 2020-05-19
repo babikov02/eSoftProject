@@ -89,6 +89,7 @@
             // 
             this.textBoxAddress_City.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxAddress_City.Location = new System.Drawing.Point(24, 39);
+            this.textBoxAddress_City.MaxLength = 80;
             this.textBoxAddress_City.Name = "textBoxAddress_City";
             this.textBoxAddress_City.Size = new System.Drawing.Size(100, 22);
             this.textBoxAddress_City.TabIndex = 0;
@@ -97,6 +98,7 @@
             // 
             this.textBoxAddress_Street.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxAddress_Street.Location = new System.Drawing.Point(24, 84);
+            this.textBoxAddress_Street.MaxLength = 80;
             this.textBoxAddress_Street.Name = "textBoxAddress_Street";
             this.textBoxAddress_Street.Size = new System.Drawing.Size(100, 22);
             this.textBoxAddress_Street.TabIndex = 1;
@@ -105,6 +107,7 @@
             // 
             this.textBoxAddress_House.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxAddress_House.Location = new System.Drawing.Point(24, 130);
+            this.textBoxAddress_House.MaxLength = 80;
             this.textBoxAddress_House.Name = "textBoxAddress_House";
             this.textBoxAddress_House.Size = new System.Drawing.Size(100, 22);
             this.textBoxAddress_House.TabIndex = 2;
@@ -114,6 +117,7 @@
             // 
             this.textBoxAddress_Number.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxAddress_Number.Location = new System.Drawing.Point(24, 176);
+            this.textBoxAddress_Number.MaxLength = 80;
             this.textBoxAddress_Number.Name = "textBoxAddress_Number";
             this.textBoxAddress_Number.Size = new System.Drawing.Size(128, 22);
             this.textBoxAddress_Number.TabIndex = 3;
@@ -123,6 +127,7 @@
             // 
             this.textBoxCoordinate_latitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCoordinate_latitude.Location = new System.Drawing.Point(200, 39);
+            this.textBoxCoordinate_latitude.MaxLength = 80;
             this.textBoxCoordinate_latitude.Name = "textBoxCoordinate_latitude";
             this.textBoxCoordinate_latitude.Size = new System.Drawing.Size(100, 22);
             this.textBoxCoordinate_latitude.TabIndex = 4;
@@ -133,6 +138,7 @@
             // 
             this.textBoxCoordinate_longitude.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxCoordinate_longitude.Location = new System.Drawing.Point(200, 84);
+            this.textBoxCoordinate_longitude.MaxLength = 80;
             this.textBoxCoordinate_longitude.Name = "textBoxCoordinate_longitude";
             this.textBoxCoordinate_longitude.Size = new System.Drawing.Size(100, 22);
             this.textBoxCoordinate_longitude.TabIndex = 5;
@@ -142,6 +148,7 @@
             // 
             this.textBoxTotalArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxTotalArea.Location = new System.Drawing.Point(361, 39);
+            this.textBoxTotalArea.MaxLength = 80;
             this.textBoxTotalArea.Name = "textBoxTotalArea";
             this.textBoxTotalArea.Size = new System.Drawing.Size(150, 22);
             this.textBoxTotalArea.TabIndex = 6;
@@ -161,6 +168,7 @@
             // 
             this.textBoxFloor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxFloor.Location = new System.Drawing.Point(200, 177);
+            this.textBoxFloor.MaxLength = 80;
             this.textBoxFloor.Name = "textBoxFloor";
             this.textBoxFloor.Size = new System.Drawing.Size(100, 22);
             this.textBoxFloor.TabIndex = 8;
@@ -170,6 +178,7 @@
             // 
             this.textBoxTotalFloors.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxTotalFloors.Location = new System.Drawing.Point(362, 84);
+            this.textBoxTotalFloors.MaxLength = 80;
             this.textBoxTotalFloors.Name = "textBoxTotalFloors";
             this.textBoxTotalFloors.Size = new System.Drawing.Size(150, 22);
             this.textBoxTotalFloors.TabIndex = 9;

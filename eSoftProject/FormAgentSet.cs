@@ -25,7 +25,7 @@ namespace eSoftProject
             {
                 ListViewItem item = new ListViewItem(new string[]
                 {
-                        agentSet.FirstName, agentSet.LastName, agentSet.MiddleName, agentSet.Commission_Share.ToString()
+                        agentSet.FirstName, agentSet.LastName, agentSet.MiddleName, agentSet.DealShare.ToString()
                 });
 
                 item.Tag = agentSet;
@@ -51,7 +51,7 @@ namespace eSoftProject
             agentSet.FirstName = textBoxFirstName.Text;
             agentSet.LastName = textBoxLastName.Text;
             agentSet.MiddleName = textBoxMiddleName.Text;
-            agentSet.Commission_Share = Convert.ToDouble(textBoxShare.Text);
+            agentSet.DealShare = Convert.ToDouble(textBoxShare.Text);
             Program.wftDb.AgentSet.Add(agentSet);
             Program.wftDb.SaveChanges();
             ShowAgent();
@@ -75,7 +75,7 @@ namespace eSoftProject
                 agentSet.FirstName = textBoxFirstName.Text;
                 agentSet.LastName = textBoxLastName.Text;
                 agentSet.MiddleName = textBoxMiddleName.Text;
-                agentSet.Commission_Share = Convert.ToDouble(textBoxShare.Text);
+                agentSet.DealShare = Convert.ToDouble(textBoxShare.Text);
                 Program.wftDb.SaveChanges();
                 ShowAgent();
             }
@@ -89,7 +89,7 @@ namespace eSoftProject
                 textBoxFirstName.Text = agentSet.FirstName;
                 textBoxLastName.Text = agentSet.LastName;
                 textBoxMiddleName.Text = agentSet.MiddleName;
-                textBoxShare.Text = agentSet.Commission_Share.ToString();
+                textBoxShare.Text = agentSet.DealShare.ToString();
             }
             else
             {
@@ -125,6 +125,11 @@ namespace eSoftProject
         private void textBoxFirstName_KeyPress(object sender, KeyPressEventArgs e)
         {
             
+        }
+
+        private void textBoxShare_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
