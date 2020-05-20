@@ -60,7 +60,7 @@ namespace eSoftProject
                 }
                 else
                 {
-                    MessageBox.Show("Данный введены верно", "Пользователь найден", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Данные введены верно", "Пользователь найден", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Menu menu = new Menu();
                     menu.Show();
                     this.Hide();
